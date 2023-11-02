@@ -1,0 +1,31 @@
+import "./navbar.scss";
+
+const Navbar = () => {
+  return (
+    <div className="navbar">
+      <div className="logo">
+        <img src="hoglogo.svg" alt="" />
+        <span>Hog-Admin</span>
+      </div>
+      <div className="icons">
+        <img src="/search.svg" alt="" className="icon" />
+        <img src="/app.svg" alt="" className="icon" />
+        <img src="/expand.svg" alt="" className="icon" />
+        <div className="notification">
+          <img src="/notifications.svg" alt="" />
+          <span>1</span>
+        </div>
+        <div className="user">
+          <img
+            src="https://c8.alamy.com/comp/MAPE4T/biker-hog-popping-a-wheelie-on-a-motorcycle-cartoon-vector-illustration-MAPE4T.jpg"
+            alt=""
+          />
+          <span>Wheelyhog</span>
+        </div>
+        <img src="/settings.svg" alt="" className="icon" />
+      </div>
+    </div>
+  );
+};
+
+export default Navbar;
